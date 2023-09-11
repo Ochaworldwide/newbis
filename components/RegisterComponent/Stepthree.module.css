@@ -1,0 +1,106 @@
+.main {
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 2rem;
+    padding: 1.5rem 2rem;
+}
+
+.steps {
+    display: grid;
+    place-items: center;
+    gap: .3rem;
+}
+
+.steps h3 {
+    font-weight: 600;
+    font-size: .87rem;
+    line-height: 1.3rem;
+    color: rgba(0, 0, 0, 1);
+}
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer>button {
+    background-color: rgba(129, 14, 167, 1);
+    /* width: 9.4rem; */
+    border-radius: .6rem;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: .9rem;
+    padding: .6rem 1.2rem;
+    cursor: pointer;
+}
+
+.footer p {
+    color: rgba(129, 14, 167, 1);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+.steps p:nth-child(2) {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.77);
+}
+
+.steps p:nth-child(3) {
+    font-weight: 400;
+    font-size: .87rem;
+    line-height: 1.3rem;
+    color: rgba(61, 61, 61, 0.78);
+    text-align: center;
+}
+.steps p:nth-child(3) span{
+    color: rgba(129,14,167,1);
+    cursor: pointer;
+}
+.accountdet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(205, 165, 211, 1);
+}
+
+.griddetails {
+    display: grid;
+    gap: .5rem;
+}
+
+.details {
+    display: flex;
+    width: 22rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divide {
+    width: 1px;
+    height: 1.5rem;
+    color: purple;
+    background-color: purple;
+}
+
+.interest {
+    text-align: center;
+}
+@media screen and (min-width:750px) {
+    .accountdet {
+        flex-direction: row;
+        column-gap: 2rem;
+        margin-top: .5rem;
+    }
+}

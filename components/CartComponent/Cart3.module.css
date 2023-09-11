@@ -1,0 +1,140 @@
+.Cart3Container{
+    width: 30%;
+    height: max-content;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7rem;
+    padding: 3rem 1.5rem ;
+    /* background-color: rgba(222, 226, 231, 1) */
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+
+}
+.Cart3Container>input::-webkit-inner-spin-button,
+.Cart3Container>input::-webkit-outer-spin-button,
+.emptyDivContainer >input::-webkit-inner-spin-button,
+.emptyDivContainer >input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.firstP{
+    font-weight: 600;
+}
+/* select{
+    border: none;
+} */
+.bankDiv{
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-color:#FFFFFF;;
+    padding: 0.5rem;
+    justify-content: space-between;
+    font-weight: 600;
+    border: 1px solid rgba(240, 227, 245, 1);
+    border-radius: 10px;
+}
+.bankDiv>p{
+    margin-left: 1.2rem;
+}
+.bankContent{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+.bankContent> img{
+    padding-right: 1rem;
+
+}
+.arrowDiv {
+
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    /* padding: 0.5rem; */
+    justify-content: space-between;
+    border: 1px solid rgba(240, 227, 245, 1);
+    border-radius: 10px;
+    /* column-gap: 12px; */
+}
+
+.arrowDiv> select{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.arrowDiv> input{
+    border: none;
+}
+
+.inputCard{
+    padding: 0.5rem;
+    border: 1px solid rgba(240, 227, 245, 1);
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+
+
+.ExpiryDiv{
+    display: flex;
+    /* border: 2px solid red; */
+        /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+.ExpiryP{
+    /* padding-left: 0.2rem; */
+    font-weight: 600;
+}
+/* .ExpiryDiv :nth-child(3)  {
+    font-size: 2rem;
+
+} */
+.emptyDivContainer{
+    display: flex;
+    column-gap: 0.8rem;
+    /* border: 1px solid blue; */
+    align-items: center;
+}
+.emptyDivContainer > p{
+    font-size: 1rem;
+    color: rgba(129, 14, 167, 0.69);
+
+}
+/* .emptyDivContainer >input::-webkit-inner-spin-button,
+.emptyDivContainer >input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+} */
+.emptyDiv{
+    width: 45px;
+    height: 40px;
+    border: 1px solid rgba(240, 227, 245, 1);   
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+
+.TotalDiv{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+.NairaSign{
+    color: rgba(129, 14, 167, 1);
+}
+.button{
+    padding: 0.7rem;
+    background-color: rgba(129, 14, 167, 1);
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}

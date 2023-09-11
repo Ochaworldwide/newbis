@@ -1,0 +1,54 @@
+.cart1Div{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.7rem 0;
+}
+.Cart1Img{
+   width: 4.25rem; 
+   
+}
+
+.WarDiv{ 
+     font-size: 0.7rem;
+}
+.WarP{
+    color: #1C1C1C;
+    font-weight: bolder;
+    
+}
+.WarDiv:nth-child(2){
+    color: #8B96A5;
+} 
+.loveIconDiv{
+    display: flex;
+    /* border: 2px solid red; */
+    color: rgba(129, 14, 167, 1);
+}
+.loveIconDiv> img{
+    width: 1rem;
+}
+.loveIconDiv> p{
+    padding-left: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.NairaSign{
+    color: #810EA7;
+    font-size: 1.3rem;
+    font-weight:600;
+}
+
+.button{
+    background-color: rgba(255, 255, 255, 1);
+    color: #FA3434;
+    border:1px solid #FA3434;
+    padding: 0.2rem 1.2rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+
+}

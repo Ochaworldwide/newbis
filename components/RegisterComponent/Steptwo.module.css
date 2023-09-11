@@ -1,0 +1,133 @@
+.main {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.steps {
+    display: grid;
+    place-items: center;
+    gap: .3rem;
+}
+
+.steps h3 {
+    font-weight: 600;
+    font-size: .87rem;
+    line-height: 1.3rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.steps p:nth-child(2) {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.77);
+}
+
+.steps p:nth-child(3), .steps p:nth-child(4) {
+    font-weight: 400;
+    font-size: .87rem;
+    line-height: 1.3rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.steps p:nth-child(4) span{
+    color: rgba(129, 14, 167, 1);
+    font-weight: 700;
+    cursor: pointer;
+}
+.steptwosection {
+    width: 100%;
+    display: grid;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(192, 135, 211, 1);
+    height: 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.icon {
+    width: 5%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.input {
+    height: 100%;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.steptwotopics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .6rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: .87rem;
+}
+.topic {
+    background-color: rgba(173, 98, 198, 1);
+    padding: 0.5rem 1.5rem;
+    border-radius: .6rem;
+}
+
+.topicblur {
+    background-color: rgba(173, 98, 198, .3);
+    padding: 0.5rem 1.5rem;
+    border-radius: .6rem;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer>button {
+    background-color: rgba(129, 14, 167, 1);
+    width: 6.6rem;
+    border-radius: .6rem;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: .6rem 2rem;
+    cursor: pointer;
+}
+
+.footer p {
+    color: rgba(129, 14, 167, 1);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+@media screen and (min-width:750px) {
+    .main {
+        gap: 1.5rem;
+        padding: 1.5rem 3rem;
+     }
+    .steptwosection {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .inputdiv {
+        width: 50%;
+    }
+}

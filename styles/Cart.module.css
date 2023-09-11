@@ -1,0 +1,44 @@
+.sectionCart{
+        width: auto;
+        height: max-content;
+        background: url('../images/welcome.png') center/cover no-repeat fixed;
+        position: relative;
+        /* border: 10px solid red; */
+        padding-top: 1rem;
+        z-index: 10;
+}
+.overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background: rgba(129, 14, 167, 0.6);
+        backdrop-filter: blur(9px);
+        z-index: -10;
+}
+.CartDisplay{
+        width: 90%;
+        height: auto;
+        /* border: 2px solid blue; */
+        display: flex;
+        /* column-gap: 4rem; */
+        justify-content: space-between;
+        margin-top: 3rem;
+        margin-inline: auto;
+        padding-bottom: 2rem;
+
+}
+.CartContent{
+        width: 65%;
+        height: auto;
+        background-color: white;
+        border-radius: 5px;
+}
+.CartContent> p{
+        padding: 2rem 0 1rem 4.3rem;
+}
+.CartContent > hr{
+        width: 87%;
+        margin-bottom: 1rem;
+        margin-left: 4rem;
+}
